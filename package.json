@@ -1,0 +1,40 @@
+{
+  "name": "which-cam",
+  "version": "0.0.0",
+  "description": "which cam was used to take this pic?",
+  "license": "MIT",
+  "repository": "hemanth/which-cam",
+  "author": {
+    "name": "Hemanth.HM",
+    "email": "hemanth.hm@gmail.com",
+    "url": "h3manth.com"
+  },
+  "bin": "cli.js",
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "files": [
+    "index.js",
+    "cli.js"
+  ],
+  "keywords": [
+    "cli-app",
+    "cli",
+    "exif-tool",
+    "exif",
+    "cam",
+    "info"
+  ],
+  "dependencies": {
+    "exif": "^0.6.0",
+    "meow": "^3.7.0",
+    "pify": "^2.3.0"
+  },
+  "devDependencies": {
+    "ava": "^0.14.0",
+    "xo": "^0.14.0"
+  }
+}
