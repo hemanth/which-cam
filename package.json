@@ -30,7 +30,7 @@
   ],
   "dependencies": {
     "exif": "^0.6.0",
-    "meow": "^3.7.0",
+    "meow": "^8.0.0",
     "pify": "^2.3.0"
   },
   "devDependencies": {
