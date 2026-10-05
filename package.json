@@ -1,6 +1,6 @@
 {
   "name": "which-cam",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "which cam was used to take this pic?",
   "license": "MIT",
   "repository": "hemanth/which-cam",
@@ -14,7 +14,7 @@
     "node": ">=4"
   },
   "scripts": {
-    "test": "xo && ava"
+    "test": "ava"
   },
   "files": [
     "index.js",
@@ -30,8 +30,8 @@
   ],
   "dependencies": {
     "exif": "^0.6.0",
-    "meow": "^3.7.0",
-    "pify": "^2.3.0"
+    "meow": "^14.1.0",
+    "pify": "^6.1.0"
   },
   "devDependencies": {
     "ava": "^0.14.0",
